@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Source+Sans+Pro');
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.4;
+    color: #333;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.4em;
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.main-wrap {
+    width: 62em;
+    margin: 0 auto;
+    padding: 1;
+}
+
+.header {
+    border-bottom: 1px solid #ccc;
+}
+
+.main-title {
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    margin-bottom: 0.2em;
+}
+
+.main-title small {
+    color: #999;
+    margin-left: 2em;
+    text-transform: none;
+    font-size: 0.3em;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar {
+    width: 30%;
+    margin-left: 10%;
+}
+
+.article:last-child {
+    border-top: 1px solid #ccc;
+}
+
+.footer {
+    margin-top: 10em;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+    padding: 2em 6em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-column {
+    padding: 2em;
+}
+
+.footer-column h4 {
+    margin-bottom: 0.2em;
+}
+
+.footer-column p {
+    margin-top: 0;
+}
+
+@media (min-width: 64em) {
+    html {
+        font-size: 112.5%;
+    }
+}
